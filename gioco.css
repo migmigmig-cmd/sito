@@ -1,0 +1,170 @@
+body{
+  background-image:linear-gradient(135deg, black,black,#000032,#000032,#00003A );
+}
+
+.pcaperto img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+  background: #045591;
+
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+nav ul li {
+    overflow: hidden;
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+nav ul {
+  padding: 30px;
+  transition: all 2s ease 0s;
+}
+
+
+nav ul li img{
+  position: absolute;
+	top: 30px;
+  left:30px;
+  transition: all 0.8s ease 0s;
+}
+
+nav ul li img:hover{
+  opacity: 0.7;
+  color:black;
+}
+
+nav ul li a {
+  color:#F5F5F5;
+  text-decoration: none;
+  margin-top: 0px;
+  font-family:'Roboto', sans-serif;
+  font-size: 30px;
+  margin-right:10px;
+
+  margin-bottom: 10px;
+  transition: all 1.5s ease 0s;
+}
+
+nav ul li a:hover{
+  color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.contacts li {
+
+  font-family:'Roboto', sans-serif;
+  color:white;
+  padding:30px 50px 30px 50px;
+  list-style-type: none;
+      display: inline;
+  margin-left:auto;
+  margin-right:auto;
+margin-top:500px;
+  opacity:0.6;
+    transition: all 1.5s ease 0s;
+}
+.contacts li:hover{
+  
+  
+  opacity:2;
+}
+.contacts li .lgq{
+  border-radius:40px;
+  
+  
+}
+.titolo1{
+  background-image:linear-gradient(to right, black,blue);
+  color:blue;
+}
+
+.noi{
+  margin-left: 100px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: solid;
+  color:black;
+  transition: all 0.9s ease 0s;
+  border-radius:60px;
+}
+
+.noi:hover {
+  color:black;
+  border:none;
+  background-color: rgba(0, 136, 169, 0.8);
+}
+.space{
+  border:none;
+  padding:200px 0px 0px 0px;
+  
+}
+footer {
+    font-family: 'Roboto Thin';
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+.quiz{
+  padding:30px;
+  border-radius:22px;
+  background-color: rgba(0, 136, 169, 1);
+  border: solid;
+  color:black;
+  transition: all 0.9s ease 0s;
+align:center;
+      margin-left: auto;
+       margin-right: auto;
+  width:750px;
+  font-size:30px;
+}
+
+.risposte ul li {
+  align:center;
+      margin-left: auto;
+       margin-right: auto;
+  color:black;
+  text-decoration: none;
+
+  font-family:'Roboto', sans-serif;
+  font-size: 19px;
+
+  
+
+  transition: all 1.5s ease 0s;
+  padding:60px;
+  margin-left:500px;
+
+  
+
+}
+
+.risposte ul li a{
+  margin-bottom:20px;
+  padding:8px;
+    border: solid;
+  color:black;
+  background-color:white;
+  border-radius:20px;
+}
+
+.risposte ul .falso a:hover{
+  background-color:red;
+  
+}
+
+
+
+.risposte ul .vero a:hover{
+  background-color:green;
+  
+}
